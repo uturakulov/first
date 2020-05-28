@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "GothamPro";
+}
+
+body {
+  background-image: linear-gradient(100deg, #7367f0 30%, #ce9ffc 100%);
+  overflow-x: hidden;
+}
+#left,
+#right,
+#boi {
+  position: absolute;
+}
+#boi {
+  width: 43%;
+  height: 95%;
+  top: 5%;
+  right: 0;
+}
+#right {
+  right: 0;
+  bottom: 0;
+  width: 65%;
+}
+#left {
+  top: 0;
+  left: 0;
+  width: 37%;
+  height: 31%;
+}
+header {
+  display: flex;
+  background-color: rgb(100, 33, 163);
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+header h1 {
+  position: relative;
+  left: 2%;
+  top: 15px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bolder;
+}
+header h1 #home {
+  text-decoration: none;
+  color: white;
+}
+header h1 span {
+  color: orange;
+  font-weight: bolder;
+}
+nav {
+  position: relative;
+  left: 50%;
+  top: 30%;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+nav a:nth-child(1) {
+  position: relative;
+  right: 5%;
+  color: orange;
+}
+nav a:nth-child(1)::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  line-height: 2rem;
+  background: orange;
+  margin-top: 10%;
+}
+nav a:nth-child(2) {
+  position: relative;
+}
+/* nav a:nth-child(2):hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  line-height: 2rem;
+  background: orange;
+} */
+nav a:nth-child(3) {
+  position: relative;
+  left: 5%;
+}
+nav a:nth-child(4) {
+  position: relative;
+  left: 35%;
+}
+section {
+  height: 100vh;
+}
+section #h1 {
+  position: relative;
+  top: 35%;
+  left: 10%;
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 60px;
+  animation: left 2s;
+}
+section #btn {
+  position: absolute;
+  top: 64%;
+  left: 11%;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 13px 30px 13px;
+  background-color: rgb(238, 172, 49);
+  color: white;
+  border-radius: 5px;
+}
+
+@keyframes left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 480px) {
+  section #h1 {
+    position: relative;
+    left: 2%;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header h1 {
+    text-align: center;
+  }
+  nav {
+    display: none;
+  }
+  #boi {
+    display: none;
+  }
+  section #btn {
+    left: 32%;
+  }
+  #left {
+    width: 75%;
+    height: 24%;
+  }
+}
