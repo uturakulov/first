@@ -4,7 +4,7 @@
   font-family: "GothamPro";
 }
 #scr4 {
-  height: 700px;
+  height: 900px;
 }
 #inline {
   position: absolute;
@@ -29,4 +29,38 @@
 }
 #scr4_header span {
   color: orange;
+}
+.scr4_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 350px;
+  position: relative;
+  left: 2%;
+}
+.video {
+  width: 90%;
+  height: 250px;
+  border-radius: 10px;
+}
+.vide_name {
+  position: relative;
+  left: 7%;
+  text-transform: uppercase;
+  top: 30px;
+}
+#inline3 {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 3370px;
+  transform: scaleX(-1) rotate(180deg);
+}
+#inline4 {
+  transform: rotate(180deg);
+  position: absolute;
+  right: 0;
+  width: 40%;
+  top: 3370px;
 }
