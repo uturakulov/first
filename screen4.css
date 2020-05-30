@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "GothamPro";
+}
+#scr4 {
+  height: 700px;
+}
+#inline {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 2840px;
+}
+#inline2 {
+  transform: scaleX(-1);
+  position: absolute;
+  right: 0;
+  width: 40%;
+  top: 2840px;
+}
+#scr4_header {
+  position: relative;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: blueviolet;
+  top: 230px;
+}
+#scr4_header span {
+  color: orange;
+}
