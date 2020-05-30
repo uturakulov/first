@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "GothamPro";
+}
+.scr3 {
+  width: 100%;
+  height: 100vh;
+}
+#scr3_back {
+  position: absolute;
+  margin-top: 190px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+.scr3 #scr3_left {
+  position: absolute;
+  top: 2003px;
+  width: 20%;
+  height: 45%;
+}
+.scr3 #scr3_right {
+  position: absolute;
+  top: 2405px;
+  right: 0;
+  width: 20%;
+  height: 47%;
+}
+#courses_h1 {
+  position: relative;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: orange;
+  top: 190px;
+  letter-spacing: 2px;
+}
+.scr3_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 80px;
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 300px;
+  position: relative;
+  left: 3.8%;
+}
+.containers {
+  position: relative;
+  width: 80%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+#scratch {
+  width: 100%;
+  background-color: orange;
+  height: 20%;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+#python {
+  width: 100%;
+  background-color: rgb(102, 2, 102);
+  height: 20%;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+#minecraft {
+  width: 100%;
+  background-color: rgb(5, 177, 5);
+  height: 20%;
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+#web {
+  width: 100%;
+  background-color: rgb(55, 105, 241);
+  height: 20%;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+.under_course {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+#under_course1 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+#course_btn1 {
+  position: relative;
+  left: 33%;
+  top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px 10px 5px;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
+}
+#course_btn1:hover {
+  background-color: orange;
+  border: 1px solid orange;
+  color: white;
+}
+#course_btn2 {
+  position: relative;
+  left: 33%;
+  top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px 10px 5px;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
+}
+#course_btn2:hover {
+  background-color: rgb(102, 2, 102);
+  border: 1px solid rgb(102, 2, 102);
+  color: white;
+}
+#course_btn3 {
+  position: relative;
+  left: 33%;
+  top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px 10px 5px;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
+}
+#course_btn3:hover {
+  background-color: rgb(5, 177, 5);
+  border: 1px solid rgb(5, 177, 5);
+  color: white;
+}
+#course_btn4 {
+  position: relative;
+  left: 33%;
+  top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px 10px 5px;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in-out;
+}
+#course_btn4:hover {
+  background-color: rgb(55, 105, 241);
+  border: 1px solid rgb(55, 105, 241);
+  color: white;
+}
