@@ -5,10 +5,9 @@
 }
 html {
   scroll-behavior: smooth;
-}
-body {
   overflow-x: hidden;
 }
+
 #back {
   width: 100vw;
   height: 100vh;
@@ -39,7 +38,7 @@ body {
 header {
   display: flex;
   background-color: rgb(100, 33, 163);
-  height: 60px;
+  height: 8vh;
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -49,7 +48,7 @@ header h1 {
   left: 2%;
   top: 15px;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.9vw;
   font-weight: bolder;
 }
 header h1 #home {
@@ -68,7 +67,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.2vw;
   color: white;
   text-transform: uppercase;
   font-weight: bolder;
@@ -130,7 +129,7 @@ nav a:nth-child(4):hover {
   top: 35%;
   left: 10%;
   color: white;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: 800;
   line-height: 60px;
   animation: left 2s;
@@ -140,7 +139,7 @@ nav a:nth-child(4):hover {
   top: 64%;
   left: 11%;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.3vw;
   text-transform: uppercase;
   padding: 13px 30px 13px;
   background-color: rgb(238, 172, 49);
@@ -186,5 +185,11 @@ nav a:nth-child(4):hover {
   #left {
     width: 75%;
     height: 24%;
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .div_h1 {
+    left: 25%;
   }
 }

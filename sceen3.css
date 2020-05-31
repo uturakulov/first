@@ -4,25 +4,25 @@
   font-family: "GothamPro";
 }
 #scr3 {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  margin-top: 0;
 }
 #scr3_back {
   position: absolute;
-  margin-top: 190px;
   width: 100vw;
   height: 100vh;
   z-index: -1;
 }
 #scr3 #scr3_left {
   position: absolute;
-  top: 2003px;
-  width: 20%;
-  height: 45%;
+  margin-top: 0;
+  width: 15vw;
+  height: 35vh;
 }
 #scr3 #scr3_right {
   position: absolute;
-  top: 2405px;
+  margin-top: 100px;
   right: 0;
   width: 20%;
   height: 47%;
@@ -30,27 +30,26 @@
 #courses_h1 {
   position: relative;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.4vw;
   text-transform: uppercase;
   color: orange;
-  top: 190px;
   letter-spacing: 2px;
 }
 .scr3_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 50px;
   grid-row-gap: 80px;
-  max-width: 1240px;
+  max-width: 90vw;
   margin: auto;
-  margin-top: 300px;
+  margin-top: 110px;
   position: relative;
-  left: 3.8%;
+  left: 6%;
 }
 .containers {
   position: relative;
-  width: 80%;
+  width: 70%;
   height: 200px;
   background-color: white;
   border-radius: 10px;
@@ -60,7 +59,7 @@
   background-color: orange;
   height: 20%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5vw;
   text-transform: uppercase;
   color: white;
   letter-spacing: 3px;
@@ -72,7 +71,7 @@
   background-color: rgb(102, 2, 102);
   height: 20%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5vw;
   text-transform: uppercase;
   color: white;
   letter-spacing: 3px;
@@ -84,7 +83,7 @@
   background-color: rgb(5, 177, 5);
   height: 20%;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2.1vw;
   text-transform: uppercase;
   color: white;
   letter-spacing: 3px;
@@ -96,7 +95,7 @@
   background-color: rgb(55, 105, 241);
   height: 20%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.1vw;
   text-transform: uppercase;
   color: white;
   letter-spacing: 3px;
@@ -105,13 +104,13 @@
 }
 .under_course {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2vw;
   margin-top: 30px;
   text-transform: uppercase;
 }
 #under_course1 {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4vw;
   margin-top: 40px;
   text-transform: uppercase;
 }
@@ -125,7 +124,7 @@
   border: 1px solid black;
   border-radius: 30px;
   padding: 5px 10px 5px;
-  font-size: 0.9rem;
+  font-size: 1vw;
   transition: 0.3s ease-in-out;
 }
 #course_btn1:hover {
@@ -143,7 +142,7 @@
   border: 1px solid black;
   border-radius: 30px;
   padding: 5px 10px 5px;
-  font-size: 0.9rem;
+  font-size: 1vw;
   transition: 0.3s ease-in-out;
 }
 #course_btn2:hover {
@@ -161,7 +160,7 @@
   border: 1px solid black;
   border-radius: 30px;
   padding: 5px 10px 5px;
-  font-size: 0.9rem;
+  font-size: 1vw;
   transition: 0.3s ease-in-out;
 }
 #course_btn3:hover {
@@ -179,7 +178,7 @@
   border: 1px solid black;
   border-radius: 30px;
   padding: 5px 10px 5px;
-  font-size: 0.9rem;
+  font-size: 1vw;
   transition: 0.3s ease-in-out;
 }
 #course_btn4:hover {
@@ -187,3 +186,18 @@
   border: 1px solid rgb(55, 105, 241);
   color: white;
 }
+
+/* @media all and (max-width: 600px) {
+  .scr3_grid {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+/* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+/* } */
+/* .containers {
+    margin-bottom: 20px;
+  } */
+/* } */

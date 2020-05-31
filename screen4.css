@@ -4,28 +4,29 @@
   font-family: "GothamPro";
 }
 #scr4 {
-  height: 900px;
+  width: 100vw;
+  height: 100vh;
 }
 #inline {
   position: absolute;
   left: 0;
-  width: 40%;
-  top: 2840px;
+  width: 40vw;
+  margin-top: 20px;
 }
 #inline2 {
   transform: scaleX(-1);
   position: absolute;
   right: 0;
   width: 40%;
-  top: 2840px;
+  margin-top: 20px;
 }
 #scr4_header {
   position: relative;
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   text-align: center;
   text-transform: uppercase;
   color: blueviolet;
-  top: 230px;
+  margin-top: 20px;
 }
 #scr4_header span {
   color: orange;
@@ -33,13 +34,14 @@
 .scr4_grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  max-width: 1200px;
+  max-width: 90vw;
   margin: auto;
-  margin-top: 350px;
+  margin-top: 100px;
   position: relative;
   left: 2%;
 }
 .video {
+  position: relative;
   width: 90%;
   height: 250px;
   border-radius: 10px;
@@ -49,12 +51,13 @@
   left: 7%;
   text-transform: uppercase;
   top: 30px;
+  font-size: 1.8vw;
 }
 #inline3 {
   position: absolute;
   left: 0;
   width: 40%;
-  top: 3370px;
+  margin-top: 100px;
   transform: scaleX(-1) rotate(180deg);
 }
 #inline4 {
@@ -62,5 +65,5 @@
   position: absolute;
   right: 0;
   width: 40%;
-  top: 3370px;
+  margin-top: 100px;
 }
