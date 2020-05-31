@@ -4,7 +4,7 @@
   font-family: "GothamPro";
 }
 #scr2 {
-  height: 170vh;
+  height: 180vh;
 }
 #scr2_h1 {
   position: relative;
@@ -37,13 +37,13 @@
 #line {
   position: absolute;
   left: 0;
-  width: 45vw;
+  width: 40vw;
 }
 #line2 {
   position: absolute;
   transform: scaleX(-1);
   right: 0;
-  width: 45%;
+  width: 40vw;
 }
 .grid_cont1 {
   margin-top: 50px;
@@ -108,4 +108,45 @@
   left: 30%;
   top: 120px;
   width: 60%;
+}
+
+@media all and (max-width: 1025px) {
+  #scr2 {
+    height: 160vh;
+  }
+  .div_h1 {
+    top: 30px;
+  }
+  .div_p {
+    top: 50px;
+  }
+  .div_h1_right {
+    top: 30px;
+  }
+  .div_p_right {
+    top: 50px;
+  }
+}
+
+@media all and (max-width: 769px) {
+  #scr2 {
+    height: 140vh;
+  }
+  .div_h1 {
+    top: 20px;
+  }
+  .div_p {
+    top: 40px;
+  }
+  .div_h1_right {
+    top: 20px;
+  }
+  .div_p_right {
+    top: 40px;
+  }
+}
+@media all and (max-width: 426px) {
+  #scr2 {
+    height: 120vh;
+  }
 }

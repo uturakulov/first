@@ -42,7 +42,7 @@
 }
 .video {
   position: relative;
-  width: 90%;
+  width: 27vw;
   height: 250px;
   border-radius: 10px;
 }
@@ -66,4 +66,16 @@
   right: 0;
   width: 40%;
   margin-top: 100px;
+}
+
+@media all and (max-width: 769px) {
+  .video {
+    width: 40vw;
+  }
+}
+@media all and (max-width: 426px) {
+  .video {
+    width: 80vw;
+    left: 4%;
+  }
 }
