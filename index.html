@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./screen2.css" />
     <link rel="stylesheet" href="./sceen3.css" />
     <link rel="stylesheet" href="/screen4.css" />
+    <link rel="stylesheet" href="/screen6.css" />
+    <link rel="stylesheet" href="/screen7.css" />
     <link rel="stylesheet" href="./fonts/gotham.css" />
   </head>
   <body>
@@ -17,12 +19,12 @@
       <img src="/images/boi.png" alt="" id="boi" />
       <header>
         <h1>
-          <a href="test.html" id="home">inno<span>school</span></a>
+          <a href="index.html" id="home">inno<span>school</span></a>
         </h1>
         <nav>
           <a href="#scr2">о нас</a>
           <a href="#scr3">преподаватели</a>
-          <a href="#scr4">записаться</a>
+          <a href="#scr6">записаться</a>
           <a href="">en</a>
         </nav>
       </header>
@@ -91,16 +93,16 @@
       <!-- <img src="/images/right side shape_s3.png" alt="" id="scr3_right" /> -->
       <h1 id="courses_h1">доступные курсы</h1>
       <div class="scr3_grid">
-        <div class="containers">
-          <h1 id="scratch">scratch</h1>
-          <p id="under_course1">
-            создадим анимированные <br />
-            истории и игры
+        <div id="container1">
+          <a href="#"><img src="/images/Python.png" alt="" id="contimage" /></a>
+          <h1 class="age">от 10 лет</h1>
+          <p id="under_age">
+            Стандартный онлайн курс
           </p>
-          <a href="#" id="course_btn1">перейти к курсу</a>
+          <h1 id="python">Программирование на PYTHON</h1>
         </div>
         <div class="containers">
-          <h1 id="python">python</h1>
+          <h1 id="python2">python</h1>
           <p class="under_course">
             создадим забавные игры, на примерах <br />
             которых демонстритуется вся красота <br />
@@ -170,6 +172,46 @@
       </div>
       <img src="/images/line curve.png" alt="" id="inline3" />
       <img src="/images/line curve.png" alt="" id="inline4" />
+    </section>
+
+    <!-- screen 6 begins -->
+
+    <section id="scr6">
+      <img src="./images/line curve.png" alt="" id="inline_scr6_1" />
+      <img src="./images/line curve.png" alt="" id="inline_scr6_2" />
+      <img src="/images/calendar circle.png" alt="" id="calendar" />
+      <div class="scr6_cont">
+        <h1 id="scr6_cont_h1">
+          запишитесь на <br />
+          <span>бесплатный пробный урок</span>
+        </h1>
+        <p id="scr6_cont_p">
+          Продолжительность пробного занятия: 60 минут. <br />Занятие проводится
+          с тем преподавателем, <br />
+          с которым Ваш ребенок будет заниматься в дальшейшем.
+        </p>
+        <form method="post">
+          <label for="nm">Имя, Фамилия*</label> <br />
+          <input type="text" name="name" id="nm" /> <br />
+          <label for="ml">Email адрес*</label> <br />
+          <input type="email" name="mail" id="ml" /> <br />
+          <label for="tp">Телефон (Viber/Whatsapp)</label> <br />
+          <input type="text" name="phone" id="tp" /> <br />
+          <label for="ms">Предпочтительный мессенджер</label> <br />
+          <input type="text" name="messenger" id="ms" /> <br />
+          <input type="submit" value="Записаться >>" id="submit" />
+        </form>
+      </div>
+      <img src="./images/line curve.png" alt="" id="inline_scr6_3" />
+      <img src="./images/line curve.png" alt="" id="inline_scr6_4" />
+    </section>
+
+    <!-- screen 7 begins -->
+
+    <section id="scr7">
+      <h1 id="scr7_h1">
+        отзывы наших учеников
+      </h1>
     </section>
   </body>
 </html>
