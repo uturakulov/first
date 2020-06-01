@@ -6,6 +6,7 @@
 #scr6 {
   width: 100vw;
   height: 100vh;
+  margin-top: 60px;
 }
 #inline_scr6_1 {
   position: absolute;
@@ -97,5 +98,9 @@ input:focus {
   color: white;
   background-color: orange;
   font-size: 1.1vw;
-  top: 50px;
+  transition: 0.3s ease-in-out;
+}
+#submit:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
