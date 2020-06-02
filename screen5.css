@@ -53,3 +53,16 @@
   color: white;
   letter-spacing: 2px;
 }
+
+@media all and (max-width: 769px) {
+  #scr5 {
+    margin-top: 680px;
+  }
+  .carousel-inner {
+    margin-top: -32px;
+  }
+  .scr5_img {
+    width: 20vw;
+    height: 200px;
+  }
+}

@@ -21,3 +21,9 @@
   letter-spacing: 2px;
   top: 20px;
 }
+
+@media all and (max-width: 769px) {
+  #scr7 {
+    margin-top: 120px;
+  }
+}

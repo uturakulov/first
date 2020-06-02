@@ -104,3 +104,30 @@ input:focus {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+@media all and (max-width: 769px) {
+  #scr6_cont_h1 {
+    font-size: 3vw;
+  }
+  #scr6_cont_p {
+    font-size: 2vw;
+  }
+  .scr6_cont {
+    max-width: 70vw;
+  }
+  form input {
+    width: 27vw;
+  }
+  form label {
+    font-size: 1.4vw;
+  }
+  #submit {
+    left: 8%;
+    font-size: 1.6vw;
+    width: 15vw;
+  }
+  #calendar {
+    width: 10%;
+    left: 46%;
+  }
+}

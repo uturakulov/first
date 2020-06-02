@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clickbl__btn {
+  top: 650px;
+  position: fixed;
+  right: 4%;
+  color: blueviolet;
+  text-align: center;
+}
+.clickbl__btn:hover {
+  cursor: pointer;
+}
+.clickbl__btn #phone {
+  background-color: blueviolet;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  font-size: 2vw;
+}
+
+.clickd__container {
+  display: none;
+  position: absolute;
+  top: -310px;
+  width: 15vw;
+  left: -12vw;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  border-radius: 20px;
+}
+.clickd__container ul {
+  list-style: none;
+}
+.clickbl__btn:hover {
+  color: blueviolet;
+}
+
+.contacts__container--visible {
+  display: block;
+}
+
+@media all and (max-width: 1441px) {
+  .clickbl__btn {
+    right: 16%;
+    top: 710px;
+  }
+}
+@media all and (max-width: 1025px) {
+  .clickbl__btn {
+    right: 16%;
+    top: 600px;
+  }
+}
+@media all and (max-width: 769px) {
+  .clickd__container {
+    width: 20vw;
+    height: 200px;
+    top: -210px;
+  }
+}
+@media all and (max-width: 426px) {
+  .clickbl__btn {
+    right: 18%;
+    top: 600px;
+  }
+  .clickbl__btn #phone {
+    font-size: 6vw;
+  }
+  .clickd__container {
+    width: 33vw;
+    height: 200px;
+    top: -210px;
+    left: -16vw;
+  }
+}
+@media all and (max-width: 426px) {
+  .clickd__container {
+    width: 36vw;
+    left: -19vw;
+  }
+}

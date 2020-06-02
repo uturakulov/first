@@ -72,7 +72,27 @@
 
 @media all and (max-width: 769px) {
   .video {
-    width: 40vw;
+    width: 60vw;
+    left: 15%;
+  }
+  #second_video {
+    margin-top: 50px;
+  }
+  #third_video {
+    margin-top: 50px;
+  }
+  .vide_name {
+    text-align: center;
+    left: 0;
+    font-size: 2.7vw;
+    top: 20px;
+  }
+  .scr4_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #scr4_header {
+    font-size: 2.7vw;
   }
 }
 @media all and (max-width: 426px) {

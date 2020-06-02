@@ -194,3 +194,75 @@
     margin-bottom: 20px;
   } */
 /* } */
+@media all and (max-width: 769px) {
+  #scr3 {
+    margin-top: 40px;
+    height: 160vh;
+  }
+  #scr3_back {
+    height: 160vh;
+  }
+  .scr3_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #container1 {
+    margin-bottom: 30px;
+    width: 60vw;
+    left: 11%;
+  }
+  #contimage {
+    width: 60vw;
+  }
+  #container2 {
+    margin-bottom: 30px;
+    width: 60vw;
+    left: 11%;
+  }
+  #contimage2 {
+    width: 60vw;
+  }
+  #container3 {
+    margin-bottom: 30px;
+    width: 60vw;
+    left: 11%;
+  }
+  #contimage3 {
+    width: 60vw;
+  }
+  #container4 {
+    margin-bottom: 30px;
+    width: 60vw;
+    left: 11%;
+  }
+  #contimage4 {
+    width: 60vw;
+  }
+  .age {
+    font-size: 2vw;
+  }
+  .under_age {
+    font-size: 1.8vw;
+  }
+  #python {
+    font-size: 1.9vw;
+  }
+  #scratch {
+    font-size: 1.9vw;
+  }
+  #minecraft {
+    font-size: 1.9vw;
+  }
+  #web {
+    font-size: 2vw;
+  }
+  #courses_h1 {
+    font-size: 2.9vw;
+    letter-spacing: 0;
+    font-weight: 700;
+    top: 20px;
+  }
+  #scr3 #scr3_left {
+    width: 25vw;
+  }
+}

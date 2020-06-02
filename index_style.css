@@ -55,7 +55,7 @@ header {
   display: flex;
   background-color: rgb(100, 33, 163);
   height: 8vh;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -251,5 +251,37 @@ footer h1 span {
 @media all and (max-width: 1400px) {
   .div_h1 {
     left: 25%;
+  }
+}
+
+@media all and (max-width: 769px) {
+  header h1 {
+    font-size: 2.4vw;
+  }
+  nav a {
+    font-size: 1.7vw;
+  }
+  nav {
+    left: 50%;
+  }
+  nav a:nth-child(4) {
+    left: 20%;
+  }
+
+  footer {
+    height: 22vh;
+  }
+  footer h1 {
+    font-size: 2.6vw;
+  }
+  #contacts {
+    font-size: 1.6vw;
+  }
+  .logos {
+    width: 4vw;
+  }
+  #boi {
+    width: 60%;
+    left: 52%;
   }
 }

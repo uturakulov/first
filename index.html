@@ -11,13 +11,20 @@
     <link rel="stylesheet" href="/screen5.css" />
     <link rel="stylesheet" href="/screen6.css" />
     <link rel="stylesheet" href="/screen7.css" />
+    <link rel="stylesheet" href="contact_widget.css">
     <link rel="stylesheet" href="./fonts/gotham.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.0-web (1)/fontawesome-free-5.12.0-web/css/all.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
   </head>
   <body>
     <div id="back">
@@ -44,6 +51,7 @@
         <a href="" id="btn">поехали!</a>
       </section>
     </div>
+   
 
     <!-- screen 2 begins -->
 
@@ -152,7 +160,7 @@
             frameborder="0"
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-            class="video"
+            class="video" 
           ></iframe>
           <h1 class="vide_name">название урока No1</h1>
         </div>
@@ -163,6 +171,7 @@
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             class="video"
+            id="second_video"
           ></iframe>
           <h1 class="vide_name">название урока No2</h1>
         </div>
@@ -173,6 +182,7 @@
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
             class="video"
+            id="third_video"
           ></iframe>
           <h1 class="vide_name">название урока No3</h1>
         </div>
@@ -343,7 +353,18 @@
       </h1>
     </section>
 
+
+    <a class="clickbl__btn"><i class="fas fa-phone" id="phone"></i>
+      <div class="clickd__container">
+        <ul>
+          <li>Sub section’s name</li>
+          <li>Sub section’s name</li>
+          <li>Sub section’s name</li>
+        </ul>
+      </div>
+
     <!-- footer here -->
+
 
     <footer>
       <h1>
@@ -355,7 +376,11 @@
       <a href="#"><img src="/images/VK logo.png" alt="" id="vk" class="logos"></a> 
       <p id="last">©Innoschool,2020</p>
     </footer>
+
     <script>
+       $(".clickbl__btn").click(function () {
+        $(".clickd__container").toggleClass("contacts__container--visible");
+      });
       $(document).ready(function () {
         // Activate Carousel
         $("#myCarousel").carousel();
