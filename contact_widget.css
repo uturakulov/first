@@ -3,7 +3,7 @@
   padding: 0;
 }
 .clickbl__btn {
-  top: 650px;
+  top: 600px;
   position: fixed;
   right: 4%;
   color: blueviolet;
@@ -17,7 +17,7 @@
   padding: 15px;
   border-radius: 50%;
   color: white;
-  font-size: 2vw;
+  width: 5vw;
 }
 
 .clickd__container {
@@ -82,5 +82,10 @@
   .clickd__container {
     width: 36vw;
     left: -19vw;
+  }
+}
+@media all and (max-width: 376px) {
+  .clickbl__btn {
+    top: 590px;
   }
 }
