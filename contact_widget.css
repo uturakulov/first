@@ -17,7 +17,7 @@
   padding: 15px;
   border-radius: 50%;
   color: white;
-  width: 5vw;
+  width: 7vw;
 }
 
 .clickd__container {
@@ -69,7 +69,8 @@
     top: 600px;
   }
   .clickbl__btn #phone {
-    font-size: 6vw;
+    width: 20vw;
+    /*z-index: 100;*/
   }
   .clickd__container {
     width: 33vw;
@@ -86,6 +87,10 @@
 }
 @media all and (max-width: 376px) {
   .clickbl__btn {
-    top: 590px;
+    top: 520px;
+    right: 9%;
+  }
+  .clickbl_btn #phone {
+    width: 20vw;
   }
 }

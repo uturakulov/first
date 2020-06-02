@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "GothamPro";
 }
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -715,7 +716,7 @@ input:focus {
   margin-top: 70px;
   width: 100vw;
   height: 100vh;
-  background-image: url("/images/BG\ for\ screen\ -\ Отзывы.png");
+  background-image: url("/images/BG\ for\ screen\ -\ Отзывы.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -752,9 +753,10 @@ input:focus {
     height: 23vh;
   }
 }
+
 @media all and (max-width: 1025px) {
   #scr2 {
-    height: 160vh;
+    height: 195vh;
   }
   .div_h1 {
     top: 30px;
@@ -773,8 +775,15 @@ input:focus {
   #scr3 {
     margin-top: 200px;
   }
+  #scr4 {
+    height: 120vh;
+  }
   #scr7 {
-    margin-top: 100px;
+    margin-top: 220px;
+    height: 130vh;
+  }
+  .scr1 #btn {
+    top: 70%;
   }
 }
 
