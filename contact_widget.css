@@ -59,6 +59,9 @@
     height: 200px;
     top: -210px;
   }
+  .clickbl__btn #phone {
+    font-size: 3vw;
+  }
 }
 @media all and (max-width: 426px) {
   .clickbl__btn {

@@ -218,7 +218,7 @@ footer h1 span {
   }
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 426px) {
   .scr1 #moto {
     position: relative;
     left: 2%;
@@ -226,15 +226,27 @@ footer h1 span {
     line-height: 30px;
     text-align: center;
   }
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-  header h1 {
-    text-align: center;
+
+  header h1 #home {
+    font-size: 4.3vw;
   }
   nav {
+    position: relative;
+    width: 700px;
+  }
+  nav a:nth-child(1) {
     display: none;
+  }
+
+  nav a:nth-child(2) {
+    display: none;
+  }
+
+  nav a:nth-child(3) {
+    display: none;
+  }
+  nav a:nth-child(4) {
+    font-size: 3.5vw;
   }
   #boi {
     display: none;
