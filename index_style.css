@@ -1359,3 +1359,6 @@ input:focus {
     font-size: 4.5vw;
   }
 }
+@media all and (max-width: 326px) {
+  /* code here */
+}
