@@ -1139,6 +1139,226 @@ input:focus {
     margin-top: 120px;
   }
 }
+@media all and (max-width: 460px) {
+  .div_h1 {
+    font-size: 6vw;
+    left: 26%;
+    top: 23px;
+  }
+  #line {
+    width: 80vw;
+  }
+  #line2 {
+    width: 85vw;
+  }
+  .div_p {
+    font-size: 3vw;
+    left: 27%;
+  }
+  .grid_cont2 {
+    margin-top: 70px;
+  }
+  .div_h1_right {
+    font-size: 6vw;
+    left: 39%;
+  }
+  .div_p_right {
+    font-size: 3vw;
+    left: 12%;
+  }
+  #scr2 {
+    height: 120vh;
+  }
+  #courses_h1 {
+    max-width: 30%;
+    font-size: 4.8vw;
+    left: 33.5%;
+  }
+  #contimage {
+    height: 25vh;
+    width: 75vw;
+  }
+  #container1 {
+    width: 75vw;
+    height: 25vh;
+    left: 3%;
+  }
+  #contimage2 {
+    height: 25vh;
+    width: 75vw;
+  }
+  #container2 {
+    width: 75vw;
+    height: 25vh;
+    left: 3%;
+  }
+  #contimage3 {
+    height: 25vh;
+    width: 75vw;
+  }
+  #container3 {
+    width: 75vw;
+    height: 25vh;
+    left: 3%;
+  }
+  #contimage4 {
+    height: 25vh;
+    width: 75vw;
+  }
+  #container4 {
+    width: 75vw;
+    height: 25vh;
+    left: 3%;
+  }
+  .age {
+    font-size: 3.7vw;
+    width: 33%;
+    margin: 8px;
+  }
+  .under_age {
+    font-size: 2.9vw;
+    bottom: 4vh;
+  }
+  #python {
+    font-size: 3vw;
+    bottom: 1vh;
+    font-weight: 600;
+  }
+  #minecraft {
+    font-size: 3vw;
+    bottom: 1vh;
+  }
+  #scratch {
+    font-size: 3.2vw;
+    bottom: 1vh;
+  }
+  #web {
+    font-size: 3.2vw;
+    bottom: 1vh;
+  }
+  #scr3 {
+    height: 140vh;
+  }
+  #scr3_back {
+    height: 140vh;
+  }
+  #scr4_header {
+    margin-top: 40px;
+    font-size: 4vw;
+  }
+  #inline {
+    width: 45vw;
+  }
+  #inline2 {
+    width: 45vw;
+  }
+  #inline3 {
+    width: 45vw;
+  }
+  #inline4 {
+    width: 45vw;
+  }
+  .video {
+    width: 70vw;
+    height: 180px;
+    left: 9%;
+  }
+  .vide_name {
+    font-size: 4vw;
+  }
+  #scr4 {
+    height: 100vh;
+  }
+  #scr5 {
+    margin-top: 480px;
+  }
+  #scr5_header {
+    position: absolute;
+    max-width: 30%;
+    font-size: 4vw;
+    left: 33.5%;
+    margin-top: -4px;
+  }
+  .carousel-inner {
+    margin-top: 0;
+    height: 60vh;
+  }
+  .carousel-inner > .item > .test > .test_cont > .scr5_img,
+  .carousel-inner > .item > a > img {
+    margin-top: 80px;
+  }
+  .scr5_img {
+    height: 100px;
+    width: 25vw;
+    margin-top: 10px;
+  }
+  #scr5 {
+    height: 60vh;
+  }
+  #scr5_back {
+    height: 60vh;
+  }
+  .teach_info {
+    margin-top: 50px;
+    font-size: 3vw;
+  }
+  #scr6 {
+    margin-top: 30px;
+  }
+  #calendar {
+    width: 15%;
+    left: 43%;
+  }
+  #inline_scr6_1 {
+    margin-top: 20px;
+  }
+  #inline_scr6_2 {
+    margin-top: 20px;
+  }
+  #scr6_cont_h1 {
+    margin-top: 40px;
+    font-size: 4.5vw;
+    font-weight: 600;
+  }
+  .scr6_cont {
+    max-width: 80vw;
+  }
+  #scr6_cont_p {
+    font-size: 3vw;
+    margin-bottom: 30px;
+  }
+  form {
+    left: 22%;
+  }
+  form input {
+    width: 45vw;
+    height: 30px;
+  }
+  form label {
+    font-size: 2.7vw;
+  }
+  #submit {
+    left: 12%;
+    font-size: 3vw;
+    width: 25vw;
+  }
+  #inline_scr6_3 {
+    margin-top: 30px;
+  }
+  #inline_scr6_4 {
+    margin-top: 30px;
+  }
+  #scr7 {
+    margin-top: 80px;
+  }
+  footer {
+    margin-top: 60px;
+    height: 30vh;
+  }
+  footer h1 {
+    font-size: 4.5vw;
+  }
+}
 @media all and (max-width: 412px) {
   .div_h1 {
     font-size: 6vw;
