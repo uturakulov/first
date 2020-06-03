@@ -1800,11 +1800,10 @@ input:focus {
     font-size: 4.5vw;
   }
 }
+
 @media all and (max-width: 321px) {
   #scr7 {
     margin-top: 130px;
   }
-}
-@media all and (max-width: 321px) {
   /* code here  */
 }
